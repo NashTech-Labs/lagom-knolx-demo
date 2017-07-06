@@ -1,0 +1,16 @@
+2017-07-06 11:27:19,878 [WARN] from akka.cluster.sharding.ShardRegion in hello-impl-application-akka.actor.default-dispatcher-4 - Trying to register to coordinator at [Some(ActorSelection[Anchor(akka://hello-impl-application/), Path(/system/sharding/HelloEntityCoordinator/singleton/coordinator)])], but no acknowledgement. Total [1] buffered messages.
+2017-07-06 11:27:20,052 [ERROR] from hello in hello-impl-application-akka.actor.default-dispatcher-3 - Exception in PathCallId{pathPattern='/api/hello/:id'}
+akka.pattern.AskTimeoutException: Ask timed out on [Actor[akka://hello-impl-application/system/sharding/HelloEntity#1481293728]] after [10000 ms]. Sender[null] sent message of type "com.lightbend.lagom.javadsl.persistence.CommandEnvelope".
+	at akka.pattern.PromiseActorRef$$anonfun$1.apply$mcV$sp(AskSupport.scala:604) ~[akka-actor_2.11-2.4.17.jar:na]
+	at akka.actor.Scheduler$$anon$4.run(Scheduler.scala:126) ~[akka-actor_2.11-2.4.17.jar:na]
+	at scala.concurrent.Future$InternalCallbackExecutor$.unbatchedExecute(Future.scala:601) ~[scala-library-2.11.8.jar:na]
+	at scala.concurrent.BatchingExecutor$class.execute(BatchingExecutor.scala:109) ~[scala-library-2.11.8.jar:na]
+	at scala.concurrent.Future$InternalCallbackExecutor$.execute(Future.scala:599) ~[scala-library-2.11.8.jar:na]
+	at akka.actor.LightArrayRevolverScheduler$TaskHolder.executeTask(LightArrayRevolverScheduler.scala:329) ~[akka-actor_2.11-2.4.17.jar:na]
+	at akka.actor.LightArrayRevolverScheduler$$anon$4.executeBucket$1(LightArrayRevolverScheduler.scala:280) ~[akka-actor_2.11-2.4.17.jar:na]
+	at akka.actor.LightArrayRevolverScheduler$$anon$4.nextTick(LightArrayRevolverScheduler.scala:284) ~[akka-actor_2.11-2.4.17.jar:na]
+	at akka.actor.LightArrayRevolverScheduler$$anon$4.run(LightArrayRevolverScheduler.scala:236) ~[akka-actor_2.11-2.4.17.jar:na]
+	at java.lang.Thread.run(Thread.java:748) ~[na:1.8.0_131]
+2017-07-06 11:27:21,836 [WARN] from akka.cluster.sharding.ShardRegion in hello-impl-application-akka.actor.default-dispatcher-3 - Trying to register to coordinator at [Some(ActorSelection[Anchor(akka://hello-impl-application/), Path(/system/sharding/HelloEntityCoordinator/singleton/coordinator)])], but no acknowledgement. Total [1] buffered messages.
+2017-07-06 11:27:23,838 [WARN] from akka.cluster.sharding.ShardRegion in hello-impl-application-akka.actor.default-dispatcher-17 - Trying to register to coordinator at [Some(ActorSelection[Anchor(akka://hello-impl-application/), Path(/system/sharding/HelloEntityCoordinator/singleton/coordinator)])], but no acknowledgement. Total [1] buffered messages.
+2017-07-06 11:27:23,996 [WARN] from akka.cluster.sharding.ShardRegion in hello-impl-application-akka.actor.default-dispatcher-4 - Retry request for shard [38] homes from coordinator at [Actor[akka://hello-impl-application/system/sharding/HelloEntityCoordinator/singleton/coordinator#1530948942]]. [1] buffered messages.

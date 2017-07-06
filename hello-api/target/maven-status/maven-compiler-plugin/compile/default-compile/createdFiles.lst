@@ -1,0 +1,11 @@
+com/knoldus/hello/api/MySerializerFactory.class
+com/knoldus/hello/api/HelloService.class
+com/knoldus/hello/api/MySerializerFactory$JacksonMessageSerializer.class
+com/knoldus/hello/api/GreetingMessage.class
+com/knoldus/hello/api/JsonTextSerializer.class
+com/knoldus/hello/api/MySerializerFactory$JacksonMessageSerializer$JacksonSerializer.class
+com/knoldus/hello/api/MySerializerFactory$1.class
+com/knoldus/hello/api/MySerializerFactory$JacksonMessageSerializer$JacksonDeserializer.class
+com/knoldus/hello/api/MySerializerFactory$DoneMessageSerializer$DoneSerializer.class
+com/knoldus/hello/api/MySerializerFactory$DoneMessageSerializer.class
+com/knoldus/hello/api/MySerializerFactory$DoneMessageSerializer$DoneDeserializer.class
